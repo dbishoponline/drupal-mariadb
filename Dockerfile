@@ -6,7 +6,10 @@ RUN apk add --no-cache \
         tzdata \
         pwgen \
         mariadb \
-        mariadb-client
+        mariadb-client \
+        util-linux \
+        coreutils \
+        binutils \
 
 ENV BASH_SOURCE /bin/bash
 
